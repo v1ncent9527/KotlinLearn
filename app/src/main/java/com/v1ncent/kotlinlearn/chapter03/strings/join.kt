@@ -39,7 +39,7 @@ fun operateCount() {
     opCount++
 }
 
-fun plCount() {
+fun printCount() {
     println("opCount=$opCount")
 }
 

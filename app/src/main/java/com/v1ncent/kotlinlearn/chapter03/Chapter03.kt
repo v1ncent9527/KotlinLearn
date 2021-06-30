@@ -42,9 +42,9 @@ fun createCollection() {
     //顶层函数
     println(joinToStringWithDefaultSignal(list, separator = "//"))
     //顶层属性
-    plCount()
+    printCount()
     operateCount()
-    plCount()
+    printCount()
     println("const : $VERSION")
 
     //扩展函数 (可以用 as 关键字来修改导入的类或函数名)

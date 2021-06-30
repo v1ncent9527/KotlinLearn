@@ -24,6 +24,7 @@ fun main() {
     println(sum(4, 2))
     val people = listOf(Person("Alice", 27), Person("Bob", 31))
     println(people.minByOrNull { p: Person -> p.age })
+    println(people.maxByOrNull { it.name })
 
     //把lambda作为实参传递
     println(people.joinToString(separator = " ", transform = { p: Person -> p.name }))
